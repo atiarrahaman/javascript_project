@@ -1,0 +1,108 @@
+
+.amount_box{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    
+   
+}
+
+.box{
+    width: 450px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.desposite_box{
+    background: #04436d;
+    color: #fff;
+}
+
+.desposite_box span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.withdraw_box{
+    background: #7e0505;
+    color: #fff;
+}
+
+.withdraw_box span{
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.total_book{
+    background: #0b831b;
+    color: #fff;
+}
+
+.total_book span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.balanece_management{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.deposite_balance{
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.deposite_balance input{
+    padding: 8px;
+    
+    
+}
+
+.deposite_balance .d_btn{
+    width: 100%;
+    margin-top: 5px;
+    background: #0e6d16;
+    padding: 15px ;
+    border-radius: 5px;
+    color: #fff;
+    border:none
+}
+
+
+.withdraw_balance{
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.withdraw_balance input{
+    padding: 8px;
+}
+
+.withdraw_balance .w_btn{
+    width: 100%;
+    margin-top: 5px;
+    background: #d00b25;
+    padding: 15px ;
+    border-radius: 5px;
+    color: #fff;
+    border:none
+}

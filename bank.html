@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank management system</title>
+    <link rel="stylesheet" href="./bank.css">
+</head>
+<body>
+    
+    <div class="amount_box">
+        <div class="desposite_box box">
+            <p >Deposite</p>
+            <span id="Deposite">00</span>
+        </div>
+        <div class="withdraw_box box">
+            <p>WithDraw</p>
+            <span id="withdraw_b">00</span>
+        </div>
+        <div class="total_book box">
+            <p>Total Balance</p>
+            <span id="Toala_amount">00</span>
+        </div>
+    </div>
+
+    <div class="balanece_management">
+        <div class="deposite_balance">
+            <input type="number" id="DepoiteAmount"> <br>
+            <button type="submit" class="d_btn" onclick="Deposit_amount() ">Deposite</button>
+        </div>
+        <div class="withdraw_balance">
+            <input id="withdraw_input" type="number"> <br>
+            <button onclick="Balance()" class="w_btn">Withdraw</button>
+        </div>
+    </div>
+
+    <script src="./bank.js"></script>
+</body>
+</html>
